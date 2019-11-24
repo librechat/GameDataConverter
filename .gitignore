@@ -1,0 +1,10 @@
+GameDataManagementTools/Assets/Editor/EPPlus.4.5.3.1
+GameDataManagementTools/Library
+GameDataManagementTools/Logs
+GameDataManagementTools/Packages
+GameDataManagementTools/ProjectSettings
+
+*.meta
+*.csproj
+*.sln
+*.v12.suo
