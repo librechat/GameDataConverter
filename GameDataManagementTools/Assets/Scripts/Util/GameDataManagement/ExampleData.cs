@@ -35,12 +35,10 @@ public class ExampleData : GameDataBase
     }
     public override string GetField(System.Reflection.FieldInfo field)
     {
-        if (field.FieldType == typeof(ExampleDataType)) return field.GetValue(this).ToString(); 
-        else return base.GetField(field);
+        return base.GetField(field);
     }
     public override void SetField(System.Reflection.FieldInfo field, string text)
     {
-        if (field.FieldType == typeof(ExampleDataType)) field.SetValue(this, (ExampleDataType)Enum.Parse(typeof(ExampleDataType), text));
-        else base.SetField(field, text);
+        base.SetField(field, text);
     } 
 }
