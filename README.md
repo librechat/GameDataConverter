@@ -1,5 +1,6 @@
 # GameDataManagementTools
-An editor tool converts ScriptableObject to Excel and Json.
+An editor tool converts ScriptableObject to Excel (simple types only) and Json (instances also supported).
+
 Supports:
 - Import: Load the ScriptableObject from Excel and Json. Also support loading from online google sheet.
 - Export: Save the ScriptableObject to Excel and Json. **DO NOT** suppport saving to online google sheet.
