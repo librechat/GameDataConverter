@@ -134,8 +134,13 @@ public static class ParseExtension
         else if (type == typeof(bool))
         {
             bool result = false;
-            bool success = bool.TryParse(value, out result);
-            if (!success) printInvalidInputWarning(value);
+            if (value == "0") result = false;
+            else if (value == "1") result = true;
+            else
+            {
+                bool success = bool.TryParse(value, out result);
+                if (!success) printInvalidInputWarning(value);
+            }       
 
             return Convert.ChangeType(result, type);
         }

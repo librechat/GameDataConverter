@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcfcfa4f519769b41ab3b3769d84e2bc, type: 3}
+  m_Name: ExampleDataTable
+  m_EditorClassIdentifier: 
+  DataList:
+  - Id: 0
+    Name: Data A
+    Available: 1
+    Type: 0
+    Position: {x: 5, y: 5, z: 5}
+    Speed: 94.87
+    FriendList: 0100000002000000
+    Icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Prefab: {fileID: 3260632989935198269, guid: 81332765e3f7ae841b1f4be4524b47d3,
+      type: 3}
+  - Id: 1
+    Name: Data B
+    Available: 1
+    Type: 1
+    Position: {x: 10, y: 8.8, z: 7.6}
+    Speed: 123.45
+    FriendList: 
+    Icon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    Prefab: {fileID: 3260632989935198269, guid: 81332765e3f7ae841b1f4be4524b47d3,
+      type: 3}
+  - Id: 2
+    Name: Data C
+    Available: 1
+    Type: 2
+    Position: {x: -666, y: 777, z: 888}
+    Speed: 1.5
+    FriendList: 04000000
+    Icon: {fileID: 0}
+    Prefab: {fileID: 0}
+  - Id: 3
+    Name: Data Testing
+    Available: 0
+    Type: 0
+    Position: {x: -3.14, y: 1.414, z: 1.732}
+    Speed: 689.2
+    FriendList: 000000000100000002000000
+    Icon: {fileID: 0}
+    Prefab: {fileID: 0}
+  - Id: 4
+    Name: Data Example
+    Available: 0
+    Type: 0
+    Position: {x: 4, y: 5.889, z: 4545}
+    Speed: 87.63
+    FriendList: 03000000
+    Icon: {fileID: 0}
+    Prefab: {fileID: 0}

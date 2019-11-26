@@ -17,7 +17,7 @@ public class GameConstant
         }
     }
     public static string GameDataFileName = "GameData";
-    public static string GoogleSheetId = "put-id-of-the-google-sheet";
+    public static string GoogleSheetId = "put-google-sheet-id";
 
     private static string excelFolderName = "GameData/Excel";
     private static string jsonFolderName = "GameData/Json";
