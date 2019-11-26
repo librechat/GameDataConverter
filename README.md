@@ -1,8 +1,10 @@
-# GameDataManagementTools
-An editor tool converts ScriptableObject to Excel and Json.
-Supports:
-- Import: Load the ScriptableObject from Excel and Json. Also support loading from online google sheet.
-- Export: Save the ScriptableObject to Excel and Json. **DO NOT** suppport saving to online google sheet.
+# Game Data Converter
+An Unity3D editor tool converts game datas between `ScriptableObject`, `Excel` (simple types only), `Json` (instances also supported).
+
+ - Import
+   - Load the ScriptableObject from Excel and Json. Also support loading from online google sheet.
+ - Export
+   - Save the ScriptableObject to Excel and Json. **DO NOT** suppport saving to online google sheet.
 
 ## How to use
 - Import the package `GameDataManagementTools.package`
